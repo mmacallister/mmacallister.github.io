@@ -13,5 +13,9 @@ p{
   font-weight: 100;
 }
 body{
-  background-color: green;
+  background-image: url("http://www.theaustintimes.com/wp-content/uploads/2010/12/tipping.jpg");
+  height: 400px;
+  background-position: bottom center;
 }
+
+
