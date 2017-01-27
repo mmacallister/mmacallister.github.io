@@ -8,4 +8,7 @@ img {
 h1, h3{
   text-align: center;
 }
-
+p{
+  font-size: 40px;
+  font-weight: 100;
+}
