@@ -3,7 +3,7 @@ h1, h3, h4, h5{
   font-family: Consolas;
 }
 img {
-  border-radius: 400%;
+  border-radius: 100%;
 }
 h1, h3{
   text-align: center;
@@ -14,8 +14,17 @@ p{
 }
 .tip {
   background-image: url("http://www.theaustintimes.com/wp-content/uploads/2010/12/tipping.jpg");
-  height: 400px;
-  background-position: bottom center;
+  height: 600px;
+  width: 200px;
+  background-position: center center;
+  background-size: cover; 
+}
+#tip-text {
+  margin: 0 auto; 
+  position: relative;
+  text-align: center;
+  top: 35%;
+  width: 50%;
 }
 
 
