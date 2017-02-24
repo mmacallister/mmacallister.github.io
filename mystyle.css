@@ -17,6 +17,8 @@ p{
   height: 300px;
   background-position: bottom center;
   background-size: cover; 
+  margin: 0px auto;
+  display: block;
 }
 #tip-text {
   margin: 0 auto; 
