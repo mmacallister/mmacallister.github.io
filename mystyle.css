@@ -1,6 +1,6 @@
 h1, h3, h4, h5{
   color: MidnightBlue;
-  font-family: Consolas;
+  font-family: 'Consolas', sans-serif;
 }
 img {
   border-radius: 100%;
