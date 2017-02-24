@@ -15,12 +15,12 @@ p{
 .tip {
   background-image: url("http://www.theaustintimes.com/wp-content/uploads/2010/12/tipping.jpg");
   height: 200px;
-  background-position: center center;
+  background-position: bottom center;
   background-size: cover; 
 }
 #tip-text {
   margin: 0 auto; 
-  position: relative;
+  position: static;
   text-align: center;
   top: 35%;
   width: 50%;
