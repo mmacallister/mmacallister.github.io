@@ -25,5 +25,11 @@ p{
   top: 35%;
   width: 50%;
 }
+.links {
+  text-align: left;
+  position: static;
+  font-family: 'Garamond', serif;
+  
+}
 
 
