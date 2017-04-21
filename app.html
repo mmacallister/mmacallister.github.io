@@ -2,36 +2,56 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- HTML code for the what shows up on the tab when app page is opened --> 
 	<title> Tip Calculator </title>
+		<!-- HTML code that links my css code to this page so that I can edit it with css -->
 		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<!-- HTML code that links my javascript code to this page so I can use javascript on it -->
 		<script src="calc.js"></script>
 
 	</head>
 	<body>
+		<!-- This is an HTML code for the "index" link on my app page -->
 		<a href="index.html">Home</a> |
+		 <!-- This is an HTML code for the "app" link on my app page -->
 		<a href="app.html">App</a> |
+		 <!-- This is an HTML code for the "about me" link on my app page -->
 		<a href="aboutMe.html">About Me</a>
+		<!-- HTML code for the main header on my app page --> 
 		<h1>  Tip Calculator </h1>
+		<!-- HTML code for an image on my home page -->
 		<img src= "http://americanpreppersnetwork.com/wp-content/uploads/2012/11/calculator.jpg"
 				 alt="www.americanpreppersnetwork.com">
 		<form> 
+			<!-- HTML code for subheaderubheader for a list of restaurant types -->
 			<h5> Type of Restaurants</h5>
+			<!-- HTML code for Id of the subheader so that I can use it on my css and javascript pages --> 
 			<select id="restaurantType">
+				<!-- HTML code for Value that can be chosen under restaurant types -->
 				<option value="Fancy"> Fancy </option>
+				<!-- HTML code for Value that can be chosen under restaurant types -->
 				<option value="Casual"> Casual</option>
+				<!-- HTML code for Value that can be chosen under restaurant types -->
 				<option value="TakeOut"> Take Out</option>
+				<!-- HTML code for Value that can be chosen under restaurant types -->
 				<option value="FamilyStyle"> Family Style</option>
 			</select>
-
+				<!-- Html code for subheader for a list of quality of service -->
 				<h5> Quality of Service </h5>
+			<!-- HTML code for id of the subheader "Quality of service" so that I can use the id on my css and javascript pages -->
 			<select id="quality">
+				<!-- HTML code for a value that can be chosen under quality of service --> 
 				<option value="Great">Great</option>
+				<!-- HTML code for a value that can be chosen under quality of service --> 
 				<option  value="Good"> Good</option>
+				<!-- HTML code for a value that can be chosen under quality of service --> 
 				<option value="Mediocre"> Mediocre</option>
+				<!-- HTML code for a value that can be chosen under quality of service --> 
 				<option value="Bad"> Bad</option>
 			</select>
 		</form>
 		<p>
+			<!-- HTML code for a test button that tells you how much to tip when restuarant type and quality of service have been chosen -->
 				<input type="button" value="test" onclick="test()"/>
 		</p>
 		

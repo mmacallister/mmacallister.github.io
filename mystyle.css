@@ -1,17 +1,22 @@
+/* assining a color and a font for the headers, h1, h3, h4, and h5 */
 h1, h3, h4, h5{
   color: MidnightBlue;
   font-family: 'Consolas', sans-serif;
 }
+/* giving the images on my webstie a border radius */
 img {
   border-radius: 100%;
 }
+/* aligning the headers h1 and h3 to the center */
 h1, h3{
   text-align: center;
 }
+/* font size and font weight for my paragraphs on my website */
 p{
   font-size: 20px;
   font-weight: 50;
 }
+/* assining a background image to the "tip" class with a height, background position, background size, margin, and display */
 .tip {
   background-image: url("http://www.theaustintimes.com/wp-content/uploads/2010/12/tipping.jpg");
   height: 300px;
@@ -20,6 +25,7 @@ p{
   margin: 0px auto;
   display: block;
 }
+/* giving the tip-text id a margin, position, text-align, top, and with */
 #tip-text {
   margin: 0 auto; 
   position: static;
@@ -27,6 +33,7 @@ p{
   top: 35%;
   width: 50%;
 }
+/* giving the links id an alignment, a position, a font family, a font weight and a text transform */
 .links {
   text-align: left;
   position: static;
